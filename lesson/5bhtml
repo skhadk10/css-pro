@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .deal{
+    font-family: Arial;
+    font-size: 20px;
+   
+    font-weight: bold;
+  }
+  .sales{
+font-family: Arial ;
+font-style: italic;
+color: brown;
+  }
+</style>
+<body>
+  <p class="deal">Biggest Deals of the Year!</p>
+  <p class="sales">Sales end Tuesday</p>
+</body>
+</html>
