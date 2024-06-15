@@ -4,6 +4,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #fff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(229, 229, 229);
 }
 .left-section {
   background-color: lightblue;
@@ -80,19 +90,19 @@
   align-items: center;
   flex-shrink: 0;
 }
-.upload-icon{
+.upload-icon {
   height: 24px;
 }
 
-.youtube-apps-icon{
-  height:24px;
-}
-
-.notifications-icon{
+.youtube-apps-icon {
   height: 24px;
 }
 
-.current-user-picture{
-  height:32px;
+.notifications-icon {
+  height: 24px;
+}
+
+.current-user-picture {
+  height: 32px;
   border-radius: 16px;
-;}
+}
