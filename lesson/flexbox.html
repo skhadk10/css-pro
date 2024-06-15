@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox exercise</title>
+  </head>
+  <body>
+    <!-- create a flexbox with 2 items. width=200px|75px -->
+    <div style="display: flex; flex-direction: row; margin-bottom: 10px">
+      <div style="background-color: lightpink; width: 200px">200px</div>
+      <div style="background-color: lightblue; width: 75px">75px</div>
+    </div>
+    <!-- a flexbox with 3 items.width=50px|remaing space|75px -->
+    <div style="display: flex; flex-direction: row; margin-bottom: 10px">
+      <div style="background-color: lightpink; width: 50px">item1</div>
+      <div style="background-color: lightblue; flex: 1">item2</div>
+      <div style="background-color: lightpink; width: 75px">item3</div>
+    </div>
+    <!-- a flexbox with 4 items.spread evenly accross the page -->
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      "
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+      <div style="background-color: lightpink">item3</div>
+      <div style="background-color: lightpink">item3</div>
+    </div>
+    <!-- a flexbox with height=50px and a gray border -->
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 50px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+      "
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12b</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .add-people {
+      width: 500px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .add-people-column {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: rgb(67, 161, 228);
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 12px 24px;
+    }
+
+    .profile-picture {
+      border-radius: 50px;
+      width: 100px;
+      height: 100px;
+      margin-left: 20px;
+    }
+
+    .cat-title {
+      font-family: Roboto;
+    }
+
+    .cat-name {
+      margin-top: 0;
+      margin-bottom: 5px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .cat-behaviour {
+      font-size: 25px;
+      color: gray;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    .cat-category {
+      font-size: 25px;
+      color: gray;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+  </style>
+  <body>
+    <div class="add-people">
+      <div class="add-people-column">
+        <div class="image">
+          <img class="profile-picture" src="download.jpg" alt="" />
+        </div>
+        <div class="cat-title">
+          <p class="cat-name">oliver</p>
+          <p class="cat-behaviour">the cat</p>
+          <p class="cat-category">Popular</p>
+        </div>
+        <div>
+          <div><button>Follow</button></div>
+        </div>
+      </div>
+      <div class="add-people-column">
+        <div><img class="profile-picture" src="download2.jpg" alt="" /></div>
+        <div class="cat-title">
+          <p class="cat-name">Mimi</p>
+          <p class="cat-behaviour">Sleepy Cat</p>
+          <p class="cat-category">Popular</p>
+        </div>
+        <div>
+          <div><button>Follow</button></div>
+        </div>
+      </div>
+      <div class="add-people-column">
+        <div><img class="profile-picture" src="download3.jpg" alt="" /></div>
+        <div>
+          <p class="cat-name">Rex</p>
+          <p class="cat-behaviour">Happy Bulldog</p>
+          <p class="cat-category">Popular</p>
+        </div>
+        <div>
+          <div><button>Follow</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
